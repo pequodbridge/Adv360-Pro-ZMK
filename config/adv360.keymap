@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-    &kp EQUAL            &kp N1        &kp N2          &kp N3           &kp N4  &kp N5                         &mo 1                                                                               &mo 3  &kp N6        &kp N7     &kp N8            &kp N9             &kp N0   &kp MINUS
-      &kp TAB             &kp Q         &kp W           &kp E            &kp R   &kp T             &macro_macro_copy                                                                  &macro_macro_paste   &kp Y         &kp U      &kp I             &kp O              &kp P    &kp BSLH
- &kp CAPSLOCK             &kp A         &kp S           &kp D            &kp F   &kp G            &macro_macro_rfsel     &kp ESC  &kp LALT                  &kp RIGHT_WIN  &kp RCTRL   &macro_macro_rfst   &kp H         &kp J      &kp K             &kp L           &kp SEMI     &kp SQT
-    &kp LSHFT             &kp Z         &kp X           &kp C            &kp V   &kp B                                            &kp HOME                      &kp PG_UP                                  &kp N         &kp M  &kp COMMA        &kp PERIOD          &kp SLASH  &kp RSHIFT
-        &mo 2  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ARROW  &kp RIGHT_ARROW                         &kp BACKSPACE  &kp DELETE   &kp END                      &kp PG_DN  &kp ENTER           &kp SPACE          &kp UP_ARROW   &kp DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET       &mo 2
+    &kp EQUAL            &kp N1        &kp N2          &kp N3           &kp N4  &kp N5                    &mo 1                                                                               &mo 3  &kp N6        &kp N7     &kp N8            &kp N9             &kp N0   &kp MINUS
+      &kp TAB             &kp Q         &kp W           &kp E            &kp R   &kp T              &mt LCTRL C                                                                  &mt LEFT_CONTROL P   &kp Y         &kp U      &kp I             &kp O              &kp P    &kp BSLH
+ &kp CAPSLOCK             &kp A         &kp S           &kp D            &kp F   &kp G              &mt LCTRL T     &kp ESC  &kp LALT                  &kp RIGHT_WIN  &kp RCTRL   &mt LEFT_SHIFT F9   &kp H         &kp J      &kp K             &kp L           &kp SEMI     &kp SQT
+    &kp LSHFT             &kp Z         &kp X           &kp C            &kp V   &kp B                                       &kp HOME                      &kp PG_UP                                  &kp N         &kp M  &kp COMMA        &kp PERIOD          &kp SLASH  &kp RSHIFT
+        &mo 2  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ARROW  &kp RIGHT_ARROW                    &kp BACKSPACE  &kp DELETE   &kp END                      &kp PG_DN  &kp ENTER           &kp SPACE          &kp UP_ARROW   &kp DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET       &mo 2
             >;
         };
 
